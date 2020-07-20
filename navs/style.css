@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid seagreen 1px;
+  background: linear-gradient(110deg, #f93d66, #eb3499);
+  align-items: center;
+  font-family: "Rock Salt", cursive;
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin-right: 1rem;
+}
+
+li {
+  margin: 0.2rem;
+  padding: 0 0.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.brand {
+  color: whitesmoke;
+  float: left;
+  margin-left: 2rem;
+  cursor: pointer;
+  /* font-family: "Rock Salt", cursive; */
+  /* #eb3434 #eb3499 */
+}
