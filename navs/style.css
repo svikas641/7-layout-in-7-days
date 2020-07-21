@@ -40,7 +40,7 @@ a {
   color: white;
   float: left;
   margin-left: 2rem;
-  cursor: pointer;
+  font-size: 25px;
 }
 
 .hero {
