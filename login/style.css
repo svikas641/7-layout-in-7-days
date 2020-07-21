@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.form-area {
+  margin: 170px;
+}
+
+.form-area h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+}
+
+.form-group label {
+  display: inline-block;
+  font-size: 26px;
+  padding: 10px;
+}
+
+.form-group input {
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+.btn {
+  margin-top: 1rem;
+  font-size: 20px;
+  padding: 0.5rem 0.8rem;
+  background: #6342f5;
+  color: white;
+  width: 100%;
+  border-radius: 4px;
+}
+.forgot-password {
+  margin-top: 5px;
+}
+.forgot-password a {
+  margin-top: 5px;
+  text-decoration: none;
+  color: red;
+}
+
+/* Media queries */
+@media (max-width: 700px) {
+  .main-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  img {
+    width: 100%;
+  }
+}
