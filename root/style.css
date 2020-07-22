@@ -45,3 +45,9 @@ a {
 img {
   width: 100%;
 }
+
+@media (max-width: 700px) {
+  .files {
+    grid-template-columns: 1fr;
+  }
+}
