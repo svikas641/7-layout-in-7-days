@@ -60,6 +60,10 @@ img {
     flex-direction: column-reverse;
   }
 
+  .form-area {
+    margin: 30px;
+  }
+
   img {
     width: 100%;
   }
