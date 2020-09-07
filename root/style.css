@@ -9,7 +9,6 @@ body {
   background: linear-gradient(to right, #2c3e50, #2980b9) no-repeat center
     center/cover;
   min-height: 100vh;
-  margin: 50px;
 }
 
 .files {
@@ -23,6 +22,7 @@ h1 {
   font-family: "Rock Salt", cursive;
   color: #fff;
   font-size: 45px;
+  text-align: center;
 }
 
 .file {
@@ -35,6 +35,7 @@ h1 {
   align-items: center;
   color: #fff;
   font-weight: 100;
+  /* overflow-wrap: break-word; */
 }
 
 a {
@@ -47,4 +48,10 @@ img {
 }
 .details {
   width: 100%;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  h1 {
+    font-size: 25px;
+  }
 }
